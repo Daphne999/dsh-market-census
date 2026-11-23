@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Market census: a magnifier over a bar chart">
+  <defs>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6df6"/>
+      <stop offset="1" stop-color="#16b1a6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#0f172a"/>
+  <rect x="14" y="34" width="7" height="14" rx="2" fill="#93c5fd"/>
+  <rect x="24" y="27" width="7" height="21" rx="2" fill="#60a5fa"/>
+  <rect x="34" y="20" width="7" height="28" rx="2" fill="url(#lens)"/>
+  <circle cx="41" cy="23" r="11" fill="none" stroke="#e2e8f0" stroke-width="4"/>
+  <line x1="49" y1="31" x2="57" y2="39" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+</svg>

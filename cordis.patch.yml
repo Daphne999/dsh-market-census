@@ -1,0 +1,7 @@
+# dsh-market-census bundle patch: inserts the plugin row into the profile roster.
+# The package is Host-only: it registers four read-only tools and never touches
+# the network. Point it at a cached awesome-dsh-plugin snapshot:
+#   DSH_MARKET_FILE=<path-to-plugins.json>
+- insert:
+    - id: dsh-market-census
+      name: dsh-market-census

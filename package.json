@@ -1,0 +1,55 @@
+{
+  "name": "dsh-market-census",
+  "version": "0.1.0",
+  "description": "Offline census of the DSH plugin market: load a cached awesome-dsh-plugin snapshot and get category/keyword counts, competitor search, near-duplicate scoring and new-arrival deltas. Read-only, deterministic, no network, no model. | 插件市场普查：读本地缓存的 awesome-dsh-plugin 快照，出类别/关键词统计、竞品检索、近似重复打分与新增统计；只读、确定性、不联网、不调模型。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/**/*.js",
+    "scripts/smoke.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin-market",
+    "census",
+    "competitor-analysis",
+    "duplicate-check",
+    "offline",
+    "deterministic"
+  ],
+  "license": "MIT",
+  "author": "Daphne999",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daphne999/dsh-market-census.git"
+  },
+  "homepage": "https://github.com/Daphne999/dsh-market-census#readme",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none test/*.test.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "node --check lib/index.js"
+  }
+}

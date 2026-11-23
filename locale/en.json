@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Market Census",
+    "description": "Offline census of a cached DSH plugin-market snapshot: category and keyword counts, ranked competitor search, near-duplicate scoring, and new-arrival deltas. Read-only, deterministic, no network, no model."
+  }
+}

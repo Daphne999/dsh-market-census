@@ -1,0 +1,15 @@
+{
+  "name": "awesome-dsh-plugin",
+  "updated": "2026-11-22",
+  "count": 8,
+  "plugins": [
+    { "name": "dsh-offpeak-guard", "category": "usage", "description": { "zh": "峰时自动暂停任务，谷价开始后自动恢复", "en": "Pause jobs at peak, resume at off-peak" }, "stars": 7, "added": "2026-11-10", "url": "https://github.com/x/dsh-offpeak-guard" },
+    { "name": "dsh-offpeak-send", "category": "usage", "description": { "zh": "高峰时消息排队，谷时发送", "en": "Queue messages during peak hours" }, "stars": 3, "added": "2026-11-10", "url": "https://github.com/x/dsh-offpeak-send" },
+    { "name": "dsh-peak-block", "category": "usage", "description": { "zh": "工作日高峰拦截官方请求", "en": "Block official requests during peak windows" }, "stars": 2, "added": "2026-11-12", "url": "https://github.com/x/dsh-peak-block" },
+    { "name": "dsh-plugin-preflight", "category": "dev", "description": { "zh": "投稿社区精选前的插件自检", "en": "Preflight checklist before submitting a plugin" }, "stars": 5, "added": "2026-11-01", "url": "https://github.com/x/dsh-plugin-preflight" },
+    { "name": "dsh-session-recovery", "category": "session", "description": { "zh": "从磁盘恢复被删除或损坏的会话", "en": "Recover deleted or corrupted sessions from disk" }, "stars": 1, "added": "2026-11-20", "url": "https://github.com/x/dsh-session-recovery" },
+    { "name": "dsh-market-radar", "category": "ui", "description": { "zh": "黄金、A 股与美股行情条", "en": "Market ticker for gold and stocks" }, "stars": 4, "added": "2026-11-21", "url": "https://github.com/x/dsh-market-radar" },
+    { "name": "dsh-error-firstaid", "category": "tools", "description": { "zh": "报错急救：贴报错给原因和一步修复", "en": "First aid for DSH errors" }, "stars": 0, "added": "2026-11-21", "url": "https://github.com/x/dsh-error-firstaid" },
+    { "name": "dsh-firstaid", "category": "tools", "description": { "zh": "只读急救台：四类现场压成一个入口", "en": "Read-only first-aid station" }, "stars": 0, "added": "2026-11-18", "url": "https://github.com/x/dsh-firstaid" }
+  ]
+}
